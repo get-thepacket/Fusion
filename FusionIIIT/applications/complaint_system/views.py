@@ -556,9 +556,14 @@ def caretaker(request):
                         age=age,
                         phone=phone,
                         worker_type=worker_type)
+<<<<<<< HEAD
             print(obj)
             print(created)
         
+=======
+
+            x.save()
+>>>>>>> Revert "Merge remote-tracking branch 'upstream/master'"
         b = a.area
         historytemp = StudentComplain.objects.filter(location=b).order_by('-id')
         history = []

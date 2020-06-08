@@ -60,7 +60,11 @@ celerybeat-schedule
 .ropeproject
 
 # VSCode Settings
+<<<<<<< HEAD
 #.vscode/settings.json
+=======
+.vscode/settings.json
+>>>>>>> Revert "Merge remote-tracking branch 'upstream/master'"
 
 # Node Modules
 node_modules/
